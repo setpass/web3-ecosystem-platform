@@ -42,4 +42,5 @@ web3-ecosystem-platform/
 
 ## Ghi chú
 
-Repo này phù hợp để trở thành dự án nổi bật nhất trong hồ sơ GitHub vì có phạm vi lớn và cảm giác giống nền tảng Web3 thật.
+<img width="1672" height="897" alt="8" src="https://github.com/user-attachments/assets/ae471f00-2902-47bf-8993-81da0fd5338e" />
+
