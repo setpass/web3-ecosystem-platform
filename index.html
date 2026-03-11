@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web3 Ecosystem Platform</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar card">
+        <div>
+          <p class="tag">Nền tảng Web3 tổng hợp</p>
+          <h1>Web3 Ecosystem Platform</h1>
+          <p class="muted">
+            Một giao diện mô phỏng nền tảng quản trị hệ sinh thái Web3 với treasury, governance, launchpad, analytics và cộng đồng.
+          </p>
+        </div>
+
+        <nav class="menu">
+          <button class="menu-item active">Overview</button>
+          <button class="menu-item">Treasury</button>
+          <button class="menu-item">Governance</button>
+          <button class="menu-item">Launchpad</button>
+          <button class="menu-item">Analytics</button>
+        </nav>
+
+        <div class="wallet-box">
+          <span>Admin wallet</span>
+          <strong id="wallet-address">0x8d2a...71cf</strong>
+          <button id="refresh-dashboard" class="secondary">Làm mới dữ liệu</button>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <header class="topbar card">
+          <div>
+            <p class="eyebrow">Web3 control layer</p>
+            <h2>Toàn cảnh hệ sinh thái Web3</h2>
+            <p class="muted">Theo dõi treasury, protocol, launchpad, governance và dữ liệu cộng đồng trong một nền tảng duy nhất.</p>
+          </div>
+          <div class="topbar-actions">
+            <input id="search-input" type="text" placeholder="Tìm module hoặc protocol" />
+            <button id="search-button">Thêm module</button>
+          </div>
+        </header>
+
+        <section class="stats-grid">
+          <article class="card stat-card highlight">
+            <span>Tổng giá trị hệ</span>
+            <strong id="ecosystem-value">0 USDT</strong>
+            <small id="ecosystem-change">0% trong 24 giờ</small>
+          </article>
+          <article class="card stat-card">
+            <span>Protocol đang chạy</span>
+            <strong id="protocol-count">0</strong>
+            <small>Hoạt động trong hệ</small>
+          </article>
+          <article class="card stat-card">
+            <span>Người dùng hoạt động</span>
+            <strong id="user-count">0</strong>
+            <small>Ví tương tác gần đây</small>
+          </article>
+          <article class="card stat-card">
+            <span>Module nổi bật</span>
+            <strong id="top-module">-</strong>
+            <small id="top-module-score">Chưa có dữ liệu</small>
+          </article>
+        </section>
+
+        <section class="grid main-grid">
+          <div class="card">
+            <div class="panel-header">
+              <h3>Core modules</h3>
+              <span class="muted">Những khối vận hành chính</span>
+            </div>
+            <div id="module-grid" class="module-grid"></div>
+          </div>
+
+          <div class="side-column">
+            <div class="card">
+              <div class="panel-header">
+                <h3>Treasury overview</h3>
+                <span class="muted">Phân bổ tài sản</span>
+              </div>
+              <div id="treasury-list" class="treasury-list"></div>
+            </div>
+
+            <div class="card">
+              <div class="panel-header">
+                <h3>Watchlist</h3>
+                <span class="muted">Module đang theo dõi</span>
+              </div>
+              <ul id="watchlist" class="watchlist"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid bottom-grid">
+          <div class="card">
+            <div class="panel-header">
+              <h3>Governance & launch activity</h3>
+              <span class="muted">Đề xuất, bỏ phiếu và mở bán gần đây</span>
+            </div>
+            <ul id="activity-list" class="activity-list"></ul>
+          </div>
+
+          <div class="card">
+            <div class="panel-header">
+              <h3>Nhận xét nhanh</h3>
+              <span class="muted">Tóm tắt tự động</span>
+            </div>
+            <div id="insights" class="insights"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
