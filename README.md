@@ -1,23 +1,24 @@
 # Web3 Ecosystem Platform
 
-Một dự án web mô phỏng nền tảng quản trị hệ sinh thái Web3 theo phong cách sản phẩm lớn và hiện đại.
+A product-style Web dashboard that simulates a modern Web3 ecosystem management platform.
 
-## Chức năng hiện có
 
-- Tổng quan toàn hệ với giá trị, người dùng và module nổi bật
-- Danh sách core modules như treasury, governance, launchpad và analytics
-- Khu treasury với phân bổ tài sản
-- Watchlist module đang theo dõi
-- Hoạt động gần đây liên quan đến governance, launchpad và community
-- Phần nhận xét nhanh để tóm tắt trạng thái hệ sinh thái
+Current Features
 
-## Công nghệ sử dụng
+• Ecosystem-wide overview with total value, users, and highlighted modules
+• Core modules such as treasury, governance, launchpad, and analytics
+• Treasury section with asset allocation insights
+• Watchlist for tracked modules
+• Recent activity feed covering governance, launchpad, and community actions
+• Quick insights section for summarizing ecosystem status
+
+## Tech Stack
 
 - HTML
 - CSS
 - JavaScript
 
-## Cấu trúc thư mục
+## Project Structure
 
 ```text
 web3-ecosystem-platform/
@@ -27,20 +28,16 @@ web3-ecosystem-platform/
 └── README.md
 ```
 
-## Cách chạy
+How to Run
 
-1. Tải mã nguồn về máy
-2. Mở file `index.html` bằng trình duyệt
+1. Download or clone the repository
+2. Open index.html in your browser
 
-## Hướng phát triển thêm
+Future Improvements
 
-- Kết nối dữ liệu thật từ nhiều protocol và chain khác nhau
-- Bổ sung biểu đồ treasury, governance và analytics
-- Thêm nhiều module hơn như staking, NFT rewards và community campaigns
-- Hỗ trợ nhiều role như admin, analyst và community manager
-- Chia nền tảng thành nhiều trang chi tiết hơn cho từng khu chức năng
-
-## Ghi chú
-
-<img width="1672" height="897" alt="8" src="https://github.com/user-attachments/assets/ae471f00-2902-47bf-8993-81da0fd5338e" />
+• Connect to real data from multiple protocols and chains
+• Add treasury, governance, and analytics charts
+• Expand with more modules such as staking, NFT rewards, and community campaigns
+• Support multiple roles such as admin, analyst, and community manager
+• Split the platform into more detailed pages for each functional area
 
